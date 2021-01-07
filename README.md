@@ -9,4 +9,7 @@ I intend to build onto this project by adding variables such as house type, as t
 "Listings_By_Neighborhoods_Vancouver" is the dataframe that contains the median house list price by each location in Vancouver and also includes median price per squarefoot. 
 
 "Vancouver Housing Prices Listings" file contains all the R Studio code associated with the entire process and has some commentary explaining parts of the code.
+
 "Rplot01" plots squarefeet and price and is fitted with a regression line.
+
+"Zone V Median_list" plots the specific zones in Vancouver against the Median List price provided by the sample
