@@ -12,5 +12,5 @@ I intend to build onto this project by adding variables such as house type, as t
 
 "Zone V Median_list" plots the specific zones in Vancouver against the Median List price provided by the sample
 
-"Kepler png" file shows the Geospatial visualization 
+"Kepler png" files show the Geospatial visualization -*Price per squarefoot*
 
