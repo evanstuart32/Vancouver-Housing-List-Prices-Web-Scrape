@@ -14,3 +14,4 @@ I intend to build onto this project by adding variables such as house type, as t
 
 "Kepler png" files show the Geospatial visualization -*Price per squarefoot*
 
+![Screenshot](kepler-gl(1).png)
