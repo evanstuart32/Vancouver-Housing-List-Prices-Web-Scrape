@@ -1,5 +1,6 @@
 # Vancouver-Housing-List-Prices-Web-Scrape
-/images/Screen Shot 2021-02-12 at 12.25.38 PM
+
+![Screen Shot 2021-02-12 at 12 25 38 PM](https://user-images.githubusercontent.com/77028732/116931471-dd2df780-ac15-11eb-85ae-16ace51d50e2.png)
 
 
 This is a project I created that uses the rvest package in R to scrape REMAX websites for data on list prices for housing and pulls variables on price, zip code, address, agent, square feet. This is achieved by using a for loop to resubmit over 150 unique URL's and gathered 1,360 observations across 7 variables. Additional data wrangling and tidying was achieved and new variables were created such as "zone" where a nested if_else function was used to evaluate the beginning three characters in the zip to assign it its unique geographical location based on neighborhood/area. My goals for this project were to gain some insight into Vancouver's housing market and to distinguish some key metrics for list prices.
