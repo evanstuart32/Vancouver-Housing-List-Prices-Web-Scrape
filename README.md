@@ -2,13 +2,16 @@
 
 ![Screen Shot 2021-02-12 at 12 25 38 PM](https://user-images.githubusercontent.com/77028732/116931471-dd2df780-ac15-11eb-85ae-16ace51d50e2.png)
 
+I created this sample as a project aimed to uncover some details and data on Vancouver's complex and changing residential housing market. Low-interest rates combined with the socioeconomic impacts of a new culture of work from home motivated me to collect a sample on house list prices. I plan to run my code and take a new sample every 6 months moving forward to help capture data and compare changes in my data frame's variables.
 
-This is a project I created that uses the rvest package in R to scrape REMAX websites for data on list prices for housing and pulls variables on price, zip code, address, agent, square feet. This is achieved by using a for loop to resubmit over 150 unique URL's and gathered 1,360 observations across 7 variables. Additional data wrangling and tidying was achieved and new variables were created such as "zone" where a nested if_else function was used to evaluate the beginning three characters in the zip to assign it its unique geographical location based on neighborhood/area. My goals for this project were to gain some insight into Vancouver's housing market and to distinguish some key metrics for list prices.
+This project was created entirely in R by scraping REMAX websites to collect a sample data frame containing over 1,300 observations. I managed to pull variables on price, zip code, address, agent, square feet while also creating new variables such as price per square foot, area, and longitudinal and latitudinal coordinates. 
 
-I intend to build onto this project by adding variables such as house type, as this will provide more insight into the prices on specific property types. Furthermore I'd like to find more wesbites and data bases to bind into the existing dataframe.
+I managed to assign geographical coordinates by binding a CSV file with over 850,000 rows on Canadian postal codes containing  latitude and longitude, with my original data frame using postal code as the common variable. 
+
+I then used Kepler.gl to create my spatial visualization of price per square foot in the Vancouver area to shed some light on Vancouver's constantly changing and complex housing market. 
 
 
-"House_Listings_DF" contains the main data frame produced by scraping, wrangling, and creating the data
+"House_Listings_DF" contains the main data frame produced by scraping, wrangling, and consolidating the data
 
 "Vancouver Housing Prices Listings" file contains all the R Studio code associated with the entire process and has some commentary explaining parts of the code.
 
