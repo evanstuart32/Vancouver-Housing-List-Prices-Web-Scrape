@@ -8,7 +8,7 @@ This project was created entirely in R by scraping REMAX websites to collect a s
 
 I managed to assign geographical coordinates by binding a CSV file with over 850,000 rows on Canadian postal codes containing  latitude and longitude, with my original data frame using postal code as the common variable. 
 
-I then used Kepler.gl to create my spatial visualization of price per square foot in the Vancouver area to shed some light on Vancouver's constantly changing and complex housing market. 
+I then used Kepler.gl to create my geospatial visualization of price per square foot in the Vancouver area to shed some light on Vancouver's constantly changing and complex housing market. 
 
 
 "House_Listings_DF" contains the main data frame produced by scraping, wrangling, and consolidating the data
